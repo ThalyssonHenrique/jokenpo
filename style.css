@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://source.unsplash.com/1900x900/?landscape");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.buttons {
+   display: flex;
+   gap: 25px;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    height: 60px;
+    width: 55px;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.stone{
+    background-color: #116C15;
+}
+
+.paper{
+    background-color: #FCCE00;
+}
+
+.scissors{
+    background-color: #F00009;
+}
+
+.result{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.your-score{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.machine-score{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+    color: blue;
+}
+
+.machine-score span{
+    color: #F00009;
+}
